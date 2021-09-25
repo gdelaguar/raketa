@@ -130,13 +130,13 @@ main{
   text-decoration: none;
 }
 
-/*.dummy{
+.dummy{
   position: absolute;
   height: 100px;
   top: 0px;
   z-index: 2;
   color: transparent;
-}*/
+}
 
 .logo{
   width: 100%;
@@ -159,6 +159,7 @@ main{
   width: 100%; 
   text-decoration: none;
   align-items: center;
+  align-content: center;
 }
 
 .producto h4{
@@ -172,22 +173,29 @@ main{
   text-shadow: 1px 1.5px 2px white;
 }
 
-embed{
-  width: 90%;
-  height:600px;
+.producto a{
+  text-align: center;
+  text-decoration: none;
 }
 
+.producto button{
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 8px 25px;
+}
 
 /* Contacto */
 
 
-/*.dummy2{
+.dummy2{
   position: absolute;
   height: 100px;
   top: 329.391px;
   z-index: 2;
   color: transparent;
-}*/
+}
 
 .contacto{
   background: #9599A4;
@@ -209,7 +217,7 @@ embed{
 .contacto h4{
 	text-align: center;
 	margin: 10px;
-	margin-top: 40px;
+	margin-top: 30px;
 	color: #242939;
 	font-size: 2rem;
 	letter-spacing: 2px;
