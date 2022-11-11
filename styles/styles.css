@@ -9,6 +9,7 @@
 body{
   display: flex;
   flex-direction: column;
+  margin: 0px;
 }
 
 /*Navigation*/
@@ -126,7 +127,7 @@ main{
   z-index: 3;
   background: #9599A4;
   height: auto;
-  width: 100vw; 
+  width: 100%; 
   text-decoration: none;
 }
 
@@ -197,10 +198,18 @@ main{
   color: transparent;
 }
 
+.dummy3{
+  position: absolute;
+  height: 100px;
+  top: 150px;
+  z-index: 2;
+  color: transparent;
+}
+
 .contacto{
   background: #9599A4;
   height: auto;
-  width: 100vw;	
+  width: 100%;	
   text-decoration: none;
 }
 
@@ -262,7 +271,7 @@ main{
 footer{
   background: #31374D;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 40px;
 }
 
@@ -393,7 +402,7 @@ footer p{
 
 .footer-bottom{
   background: #000;
-  width: 100vw;
+  width: 100%;
   padding: 20px 20px;
   text-align: center;
 }
@@ -476,7 +485,7 @@ footer p{
   }
 
   main{
-    margin: 20px;
+    margin: 0px;
   }
 
  .logo{
