@@ -274,22 +274,23 @@ footer p{
   color: #fff;
 }
 
-.footer-content{
+.footer-clean{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding: 45px 0 20px;
 }
 
-.footer-content h3{
+.footer-clean h3{
   font-size: 1.8rem;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
 }
 
-.footer-content p{
+.footer-clean p{
   max-width: 500px;
   margin: 0px 10px;
   line-height: 28px;
@@ -322,6 +323,7 @@ footer p{
 
 .datos h4{
 	margin-top: 10px;
+	color: #fff
 }
 
 .datos a{
