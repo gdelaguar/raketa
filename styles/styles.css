@@ -478,11 +478,59 @@ footer p{
 }
 
 
+
+/* Phone */
+
+@media (min-width: 280px) and (max-width: 720px) {
+	.tabs-desktop{
+		display: none !important;
+	}
+	.tabs-mobile{
+		display: block !important;
+	}
+	.nav-link.dropdown-toggle{
+		color: #000000;
+	}
+	.nav-link.dropdown-toggle:focus{
+		color: #000000;
+	}
+	.nav-link.dropdown-toggle.show{
+		color: #000000;
+	}
+	.dropdown-item{
+		padding: 2px !important;
+		font-size: 12px;
+	}
+	.dropdown-menu{
+		padding: 2px !important;
+	}
+	.dropdown-item.active{
+		background-color: #d4d7e2 !important;
+	}
+	.logo-catalogo{
+		display: none;
+	}
+	th{
+		font-size: 10px !important;
+	}
+	td{
+		font-size: 10px !important;
+	}
+}
+
+
 /*Tablet*/
 
-@media (min-width: 721px) and (max-width: 1023px) {
+@media (min-width: 721px) and (max-width: 974px) {
 
   /*Nav*/
+  
+  .tabs-desktop{
+		display: block !important;
+	}
+	.tabs-mobile{
+		display: none !important;
+	}
 
   header{
     position: sticky;
@@ -527,14 +575,25 @@ footer p{
     padding: 15px 10px;
     background-color: unset;
   }
+  .nav-link{
+	  font-size: 12px !important;
+	  color: #000000 !important;
+  }
   }
 
 
   /*Desktop*/
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 
 /*Nav*/
+
+ .tabs-desktop{
+		display: block !important;
+	}
+	.tabs-mobile{
+		display: none !important;
+	}
 
   header{
     position: sticky;
@@ -621,6 +680,143 @@ footer p{
 .navbar-brand{
 
   font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: 500;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.card{
+
+  border:none;
+ 
+}
+
+.card-body {
+    flex: 1 1 auto;
+}
+
+.card-text{
+
+  font-size: 13px;
+}
+
+.guarantee{
+
+  color: #05882c;
+  margin-left: 4px;
+  font-weight: 700
+
+}
+
+hr{
+    margin: 0.2rem 0;
+   color: #bfbebe;
+}
+
+
+
+  }
+  @media (min-width: 974px) and (max-width: 1024px) {
+
+/*Nav*/
+
+ .tabs-desktop{
+		display: block !important;
+	}
+	.tabs-mobile{
+		display: none !important;
+	}
+
+  header{
+    position: sticky;
+    top: 0;
+  }
+
+  main{
+    margin: 0px;
+  }
+
+ .logo{
+    width: auto;
+  }
+
+  nav{
+    height: 12vh;
+  }
+
+  nav li{
+    padding: 0;
+  }
+
+  .bar-btn{
+    display: none;
+  }
+
+  .nav-menu{
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    height: 12vh;
+    top: 0;
+    transition: none;
+    margin-right: 50px;
+  }
+
+  .nav-menu li{
+    padding: 0px;
+    flex-grow: 0;
+    margin: 0 20px;
+    display: inline-block;
+    line-height: 12vh;
+    transition: none;
+    border: none;
+  }
+
+  .nav-menu li a{
+    font-size: 16px;
+    padding: 20px 15px;
+    background-color: unset;
+  }
+  
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 3px solid #000;
+     
+}
+
+.nav-tabs>a{
+
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  font-size: 12px;
+	  
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+    border-bottom: 3px solid #000
+}
+
+.navbar{
+
+      border-bottom: 1px solid #00000012;
+      padding-top: 0rem !important; 
+      padding-bottom: 0rem !important;
+          background-color: #ffffff!important;
+}
+
+.navbar-brand{
+
+  font-size: 16px;
   text-transform: uppercase;
   font-family: 'Allerta Stencil', sans-serif;
   font-weight: 500;
